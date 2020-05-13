@@ -115,29 +115,31 @@ lib/extractors/libmmparserextractor.so|950a606d2ca08bd2ded7d4e9fb570e8ed69eccb4
 -lib64/libavenhancements.so|a15035f96be2e16f0214aceec184c86ba7be2978
 lib64/extractors/libmmparserextractor.so|282b634e2c55e21a86a74fd64ffcc1bff6dceb27
 
-# Bluetooth - from  LA.UM.8.2.r1-06500-sdm660.0
-vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|5acf94f38e47c2ec43c95e132dfe7b5d71ec41c4
-vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|a979981c55f3dcaf6cf2212e71b901ca4d58b959
-vendor/lib64/btaudio_offload_if.so|f9d7229e818a3044d56739d9d47462c4af726c02
-vendor/lib64/libbluetooth_audio_session_qti.so|68125c36f34aa4d6649b0777ceb3f32f31656247
-vendor/lib64/libbthost_if.so|9d22cc905ffc0446062365db04d5711f7644b504
-vendor/lib64/libbtnv.so|a6793a7b93fa607fcec39da7479566f84ed39aa4
-vendor/lib64/libbt-hidlclient.so|0a0d0ac4e2f4e2e80f4ec488b53c18c96ff08dc6
-vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|9b7ae20ce9d6d2a67fdac94268cec441278cca3d
-vendor/lib64/hw/audio.bluetooth_qti.default.so|102539a0013edf06790215b21bed68c704437a96
-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|07fdad13db39defec19899a7a5510f0fb621f242
-vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|93f09e7ee848e2d6fee7f0810ad8a3e57346b72c
-vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so|ebdfcc7064fc144acf6cba300486c6394af3d73b
-vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|5e06b7b33d084975d6326875268cb237ad6d8559
-vendor/lib/btaudio_offload_if.so|b001242c7b7b117c28abbfdd037eec3ed66112cf
-vendor/lib/libbluetooth_audio_session_qti.so|bcf8deb019c231881dff482d9e3bc79f02189636
-vendor/lib/libbthost_if.so|82ba4fcc08e44f66542386d3c65cf2b998d68c70
-vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so|5d204b6e003932069782774dbae4f5f209848870
-vendor/lib/hw/audio.bluetooth_qti.default.so|bbf5bed40ab75e0feed0753a40743dbf6979dfb9
-vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so|84aa72858123576df3adbd922ae9528bc2344524
-vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|87df9077916c6b9d4668c2156da165492a393386
-vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so|71644784c8f73573380004f1c69cf18b1e57964b
-vendor/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|10bddb86ecd1c7e0b0d49fef80bc4ded29a05ce1
+# Bluetooth
+lib/libbtconfigstore.so
+lib64/libbtconfigstore.so
+vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
+vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
+vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so
+vendor/lib/libbt-hidlclient.so
+vendor/lib/libbtnv.so
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
+vendor/lib64/libbt-hidlclient.so
+vendor/lib64/libbtnv.so
+
+# Bluetooth-Audio
+vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so
+vendor/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so
+vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so
+vendor/lib/vendor.qti.hardware.btconfigstore@1.0.so
+vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so
+vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so
+vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
+vendor/lib64/vendor.qti.hardware.btconfigstore@1.0.so
+
+# Bluetooth aptX(HD)
+lib64/libaptXHD_encoder.so
+lib64/libaptX_encoder.so
 
 # Camera
 vendor/lib/hw/camera.sdm660.so
