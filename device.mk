@@ -326,6 +326,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     mix
 
+# Music Player Go
+PRODUCT_PACKAGES += \
+    musicgo
+
 # Netutils
 PRODUCT_PACKAGES += \
     android.system.net.netd@1.0 \

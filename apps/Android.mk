@@ -26,3 +26,15 @@ LOCAL_MODULE_PATH := $(TARGET_OUT)/priv-app
 LOCAL_OVERRIDES_PACKAGES := SnapdragonCamera Snap Camera2
 include $(BUILD_PREBUILT)
 
+# Music Player Go
+include $(CLEAR_VARS)
+LOCAL_MODULE := musicgo
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES :=musicgo.apk
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_CLASS := APPS
+LOCAL_PRIVILEGED_MODULE := true
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+LOCAL_DEX_PREOPT := false
+LOCAL_OVERRIDES_PACKAGES := Music SnapdragonMusic crDroidMusic Phonograph Eleven VanillaMusic MusicPlayer 
+include $(BUILD_PREBUILT)
