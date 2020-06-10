@@ -115,6 +115,14 @@ lib/extractors/libmmparserextractor.so|950a606d2ca08bd2ded7d4e9fb570e8ed69eccb4
 -lib64/libavenhancements.so|a15035f96be2e16f0214aceec184c86ba7be2978
 lib64/extractors/libmmparserextractor.so|282b634e2c55e21a86a74fd64ffcc1bff6dceb27
 
+# Audio HAL Prebuilts
+vendor/lib/hw/audio.primary.sdm660.so
+vendor/lib/libaudio_log_utils.so
+vendor/lib/libtinycompress_vendor.so
+vendor/lib64/hw/audio.primary.sdm660.so
+vendor/lib64/libaudio_log_utils.so
+vendor/lib64/libtinycompress_vendor.so
+
 # Bluetooth
 lib/libbtconfigstore.so
 lib64/libbtconfigstore.so
